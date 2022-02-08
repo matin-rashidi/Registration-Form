@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { validate } from "./validate";
+import { validate } from "../helper/validate";
 import styles from "./signUp.module.css";
 import { Link } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";

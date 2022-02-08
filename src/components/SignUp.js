@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 
 import styles from "./signUp.module.css";
-import { validate } from "./validate";
+import { validate } from "../helper/validate";
 
 const SignUp = () => {
   const [data, setData] = useState({
